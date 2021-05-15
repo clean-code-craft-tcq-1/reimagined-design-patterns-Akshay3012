@@ -28,3 +28,14 @@ Mediator design pattern defines an object that encapsulates how a set of objects
 
 **Disadvantage :** Complexity in Mediator.
 
+
+# **Proxy Design Pattern**
+Proxy is a structural design pattern that lets you provide a substitute or placeholder for another object. A proxy controls access to the original object, allowing you to perform something either before or after the request gets through to the original object.
+
+**Example/Usecase :** Consider a cheque or credit card is a proxy for what is in our bank account. It can be used in place of cash, and provides a means of accessing that cash when required
+**Advantages :** 1. The proxy works even if the service object isn’t ready or is not available.
+                 2. Open/Closed Principle. You can introduce new proxies without changing the service or clients.
+
+**Disadvantage :** 1. The code may become more complicated since you need to introduce a lot of new classes.
+                   2. The response from the service might get delayed.
+
