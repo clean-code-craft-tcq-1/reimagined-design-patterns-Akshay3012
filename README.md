@@ -17,3 +17,14 @@ Adapter pattern works as a bridge between two incompatible interfaces and acts a
 **Advantages :** Flexibility in design (New adapters can be added without disturbing the existing code)
 
 **Disadvantage :** Increases the complexity of code when more number of interfaces are added.
+
+
+# **Mediator Design Pattern**
+Mediator design pattern defines an object that encapsulates how a set of objects interact. It allows multiple objects to communicate with each without knowing each other's structure.
+
+**Example/Usecase :** Traffic control room at airpots, all flights will have to interact with each other for finding which flight is going to land next that is possible only through mediator (Traffic control room)
+
+**Advantages :** Reusable codes and easy maintenance (Adding new mediators can be done without changing the existing code)
+
+**Disadvantage :** Complexity in Mediator.
+
